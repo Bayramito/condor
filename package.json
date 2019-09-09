@@ -1,0 +1,27 @@
+{
+    "name": "condor",
+    "version": "1.0.0",
+    "description": "frontend assignment",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "bayramarif",
+    "license": "ISC",
+    "dependencies": {
+        "browser-sync": "^2.26.7",
+        "del": "^5.1.0",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^7.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-csso": "^3.0.1",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.2",
+        "reset": "^0.1.0",
+        "run-sequence": "^2.2.1"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.10.2"
+    }
+}

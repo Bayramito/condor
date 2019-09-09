@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    #stickyLogo {
+        display: none;
+    }
+    .content {
+        grid-template-columns: 1fr;
+    }
+    footer {
+        .footer_content {
+            flex-direction: column !important;
+            span {
+                padding: 15px;
+            }
+        }
+    }
+}
